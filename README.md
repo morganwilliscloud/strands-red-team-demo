@@ -1,6 +1,6 @@
 # Red Team Your AI Agents
 
-**Can an attacker make your agent misbehave?** This repo shows you how to find out — and how to stop it.
+**Can an attacker make your agent misbehave?** This repo shows you how to find out, and how to stop it.
 
 AI agents with tool access can be tricked into exfiltrating credentials, reading files they shouldn't, or executing commands beyond their authorization. This project demonstrates:
 
