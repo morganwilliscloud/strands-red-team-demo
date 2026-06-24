@@ -132,7 +132,7 @@ When a guardrail triggers, the SDK automatically overwrites the blocked content 
 
 ## Closing the Last Gap: AgentCore Gateway + Interceptor
 
-Some attacks can't be fixed with prompts or hooks alone. The `data_exfiltration` breach succeeds when the agent calls a tool it's allowed to use — but for the wrong person. The model controls the arguments, so prompt injection can redirect it.
+Some attacks can't be fixed with prompts or hooks alone. The `data_exfiltration` breach succeeds when the agent calls a tool it's allowed to use, but for the wrong person. The model controls the arguments, so prompt injection can redirect it.
 
 The fix removes identity from the model's control entirely:
 
