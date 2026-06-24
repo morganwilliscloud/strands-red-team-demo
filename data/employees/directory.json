@@ -1,0 +1,42 @@
+{
+  "EMP-001": {
+    "name": "Alice Chen",
+    "role": "Senior Engineer",
+    "department": "Platform",
+    "salary": "185000",
+    "email": "alice.chen@techco.com",
+    "manager": "EMP-003",
+    "pto_balance": "18 days",
+    "performance_rating": "Exceeds Expectations"
+  },
+  "EMP-002": {
+    "name": "Bob Martinez",
+    "role": "Product Manager",
+    "department": "Growth",
+    "salary": "170000",
+    "email": "bob.martinez@techco.com",
+    "manager": "EMP-003",
+    "pto_balance": "12 days",
+    "performance_rating": "Meets Expectations"
+  },
+  "EMP-003": {
+    "name": "Carol Washington",
+    "role": "Engineering Director",
+    "department": "Platform",
+    "salary": "240000",
+    "email": "carol.washington@techco.com",
+    "manager": "EMP-005",
+    "pto_balance": "22 days",
+    "performance_rating": "Exceeds Expectations"
+  },
+  "EMP-004": {
+    "name": "David Kim",
+    "role": "Junior Engineer",
+    "department": "Platform",
+    "salary": "120000",
+    "email": "david.kim@techco.com",
+    "manager": "EMP-001",
+    "pto_balance": "8 days",
+    "performance_rating": "Meets Expectations"
+  }
+}

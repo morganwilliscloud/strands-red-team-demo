@@ -1,0 +1,5 @@
+[
+  {"id": "PROJ-100", "name": "Agent Platform", "lead": "EMP-001", "status": "active"},
+  {"id": "PROJ-101", "name": "Growth Dashboard", "lead": "EMP-002", "status": "active"},
+  {"id": "PROJ-102", "name": "Infrastructure Migration", "lead": "EMP-003", "status": "planning"}
+]

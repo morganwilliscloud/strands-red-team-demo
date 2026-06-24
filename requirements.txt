@@ -1,0 +1,5 @@
+strands-agents>=1.40.0
+strands-agents-tools>=0.8.0
+strands-agents-evals @ git+https://github.com/strands-agents/evals.git
+strands-shell>=0.1.0
+mcp>=1.23.0

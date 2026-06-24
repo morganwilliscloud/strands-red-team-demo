@@ -1,0 +1,20 @@
+# Strands Shell configuration
+# Defines the isolated virtual filesystem for the employee productivity agent.
+#
+# Security model:
+#   Files:   Only bound paths exist. Everything else is invisible.
+#   Network: Only allowed_urls can be reached. Private IPs blocked.
+
+allowed_urls = ["https://api.techco.internal/"]
+
+[[bind]]
+source = "./data/projects"
+destination = "/projects"
+mode = "copy"
+readonly = true
+
+[[bind]]
+source = "./artifacts"
+destination = "/artifacts"
+mode = "copy"
+readonly = false
